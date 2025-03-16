@@ -117,7 +117,8 @@ a{
 }
 .c2{
     
-    height: 40vh;
+    height: auto;
+    margin-top: 40px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -483,6 +484,9 @@ input[type="radio"]{
     font: 18px okra, Helvetica, sans-serif;
 
 }
+.div-btn{
+    display: inline;
+}
 .btn{
     height: 50px;
     width: 150px;
@@ -598,7 +602,7 @@ hr{
     align-items: center;
 }
 .f3-content{
-    font: 16px okra, Helvetica, sans-serif;
+    font: 13px okra, Helvetica, sans-serif;
     color: #706e6e;
     font-weight: lighter;
     margin-left: 60px;
@@ -607,3 +611,200 @@ hr{
 }
 
 /* Responsive */
+
+@media(max-width: 600px){
+    .nav-links{
+        padding-top: 20px;
+        display: flex;
+        gap: 0px;
+        flex-direction: row;
+        height: 100px;
+        text-align: center;
+    }
+    .nav-styles{
+        font-size: 14px;
+    }
+    .logo-z{
+        width: 200px;
+        height: 50px;
+    }
+    .header-text{
+        text-align: center;
+        font-size: 20px;
+    }
+    .search-container{
+        display: none;
+    }
+    .c2{
+        height: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .c2_img1{
+        height: 300px;
+        width: 400px;
+    }
+    .c2_img1_text{
+        font-size: 15px;
+        height: 50px;
+    }
+    .c2_img2{
+        height: 300px;
+        width: 400px;
+    }
+    .c2_img2_text{
+        font-size: 15px;
+        height: 50px;
+    }
+    .c2_img3{
+        height: 300px;
+        width: 400px;
+    }
+    .c2_img3_text{
+        font-size: 15px;
+        height: 50px;
+    }
+    .c3{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    .c3_span{
+        display: none;
+    }
+    .c4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .c4_img1{
+        padding-left: 5px;
+        height: 300px;
+        width: 200px;
+    }
+    .c4_img1_text{
+        font-size: 17px;
+    }
+    .c4_img2{
+        padding-left: 5px;
+        height: 300px;
+        width: 200px;
+    }
+    .c4_img2_text{
+        font-size: 17px;
+    }
+    .c4_img3{
+        padding-left: 5px;
+        height: 300px;
+        width: 200px;
+    }
+    .c4_img3_text{
+        font-size: 17px;
+    }
+    .c4_img4{
+        padding-left: 5px;
+        height: 300px;
+        width: 200px;
+    }
+    .c4_img4_text{
+        font-size: 17px;
+    }
+    .c6{
+        height: auto;
+    }
+
+    .c7{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+    }
+    .c7_img{
+        flex: none;
+        display: none;
+    }
+    .c7_info{
+        flex: none;
+        padding-top: 0;
+        margin-top: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .c7_h2{
+        font: 36px okra, Helvetica, sans-serif;
+        color: #1c1c1c;
+    }
+    input[type="radio"]{
+        accent-color: orange;
+        height: 10px;
+        width: 15px;
+        font-size: 14px;
+    }
+    .inp_txt{
+        height: 30px;
+        width: 200px;
+        font: 14px okra, Helvetica, sans-serif;
+    
+    }
+    .btn{
+        height: 50px;
+        width: 120px;
+    }
+    .store-img{
+        width: 150px;
+        height: 50px;
+    }
+    .c9_info{
+        width: 70vw;
+    }
+    .f1{
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .country_lang{
+        display: flex;
+    }
+    .f2{
+        width: 540px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-left: 0px;
+        margin-left: -10px;
+    }
+    .f2-1{
+        padding: 10px;
+    }
+    .f2-head{
+        font-size: 12px;
+    }
+    .f2-content{
+        font-size: 10px;
+    }
+    .social{
+        width: 15px;
+        height: 15px;
+    }
+    .store-img{
+        width: 50px;
+        height: 25px;
+    }
+    .c7_app-link{
+        /* position: fixed; */
+        position: relative;
+    }
+    .c7_info{
+        margin-top: 200px;
+    }
+    .c7_h2{
+        font-size: 30px;
+    }
+
+}
