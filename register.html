@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zomato Login</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Zomato Sign up</title>
+    <link rel="stylesheet" href="register.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
@@ -12,31 +12,36 @@
     <div class="parent">
         <div class="login-box">
             <a href="index.html" class="close-btn">&times;</a>
-            <h2>Login</h2>
+            <h2>Sign Up</h2>
 
             <div class="input-box">
-                <img src="https://flagcdn.com/w40/in.png" alt="India Flag">
-                <select>
-                    <option>+91</option>
-                </select>
-                <input type="text" placeholder="Phone">
+                <input type="text" placeholder="Full Name">
             </div>
 
-            <button class="otp-btn">Send One Time Password</button>
+            <div class="input-box">
+                <input type="email" placeholder="Enter your email">
+            </div>
+
+            <div class="TnC">
+                <input type="checkbox" id="terms" >
+                <span class="TnC-span">
+                    I agree to Zomato's 
+                    <span class="TnC-span-red">Terms of Service, Privacy Policy</span> 
+                    and <span class="TnC-span-red">Content Policies</span>
+                </span>
+            </div>
+
+            <button class="otp-btn">Create account</button>
 
             <div class="divider">
                 <hr class="line"><span>or</span><hr class="line">
             </div>
 
-            <button class="email-btn">
-                <i class="fas fa-envelope"></i> Continue with Email
-            </button>
-
             <button class="google-btn">
                 <i class="fab fa-google"></i> Sign in with Google
             </button>
 
-            <p class="register-text">New to Zomato? <a href="#">Create account</a></p>
+            <p class="register-text">Already have an account? <a href="login.html">Log in</a></p>
         </div>
     </div>
 </body>
